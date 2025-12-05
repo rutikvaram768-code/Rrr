@@ -8,9 +8,9 @@
                                 "npm": "10.0.0"
                 },
                 "scripts": {
-                                "start": "node index.js",
+                                "start": "node uzair.js",
                                 "login": "node login",
-                                "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
+                                "test": "node --trace-warnings --use_strict --async-stack-traces uzair"
                 },
                 "repository": {
                                 "type": "git",
