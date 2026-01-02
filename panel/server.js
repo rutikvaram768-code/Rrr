@@ -7,7 +7,7 @@ app.use("/public", express.static(path.join(__dirname, "public")));
 
 // ROOT
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "MrUzairXxX-MTX.html"));
+  res.sendFile(path.join(__dirname, "𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿-𝑴𝑻𝑿.html"));
 });
 
 // PORT (Render requirement)
