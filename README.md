@@ -1,6 +1,6 @@
-# 🤖 Messenger Bot by Uzair Rajput
+# 🤖 Messenger Bot by ✮⃝❤≛⃝ R𝐮𝐭𝐢𝐤──────亗🕊️
 
-Welcome to the official **Messenger Bot** developed by **Uzair Rajput** — a smart, fun-loving, and powerful bot for Facebook Messenger! 🎉
+Welcome to the official **Messenger Bot** developed by **✮⃝❤≛⃝ R𝐮𝐭𝐢𝐤──────亗🕊️** — a smart, fun-loving, and powerful bot for Facebook Messenger! 🎉
 
 ![imgur](https://i.imgur.com/rpCMuwA.jpeg)
 
