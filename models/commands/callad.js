@@ -86,7 +86,7 @@ module.exports.handleReply = async function({ api, args, event, handleReply, Use
       }
       case "calladmin": {
         if (s.length == 0) {
-          api.sendMessage({ body: `[📌] Feedback from admin ${name} to you:\n\n[💬] Content: ${(event.body) || "no reply 🌸 "}\n\n» Reply to this message if you want to continue sending  reports to my owner ◈ ━ 💚✨ 𝑼𝒛𝒂𝒊𝒓𝑴𝑻𝑿 ◈ ━ 💚✨`, mentions: [{ tag: name, id: event.senderID }] }, handleReply.id, (e, data) => global.client.handleReply.push({
+          api.sendMessage({ body: `[📌] Feedback from admin ${name} to you:\n\n[💬] Content: ${(event.body) || "no reply 🌸 "}\n\n» Reply to this message if you want to continue sending  reports to my owner⎯꯭𝁂꯭꯭꯭֯✰🩷꯭꯬꯭𓆩〭ͥ〬 ⃪ᷟ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭⎯`, mentions: [{ tag: name, id: event.senderID }] }, handleReply.id, (e, data) => global.client.handleReply.push({
             name: this.config.name,
             author: event.senderID,
             messageID: data.messageID,
@@ -94,7 +94,7 @@ module.exports.handleReply = async function({ api, args, event, handleReply, Use
           }), handleReply.messID);
         }
         else {
-          api.sendMessage({ body: `[📌] Feedback from admin ${name} to you:\n\n[💬] Content: ${(event.body) || "only files with no reply 🌸 "}\n[💌] Admin files sent to you\n\n» Reply to this message if you want to continue sending reports to my owner ◈ ━ 💚✨ 𝑼𝒛𝒂𝒊𝒓𝑴𝑻𝑿 ◈ ━ 💚✨ `, attachment: l, mentions: [{ tag: name, id: event.senderID }] }, handleReply.id, (e, data) => global.client.handleReply.push({
+          api.sendMessage({ body: `[📌] Feedback from admin ${name} to you:\n\n[💬] Content: ${(event.body) || "only files with no reply 🌸 "}\n[💌] Admin files sent to you\n\n» Reply to this message if you want to continue sending reports to my owner ◈ ⎯⃛〬𓆩💘𓆪꯭ ⤹³♡︎𝐑𝐔𝐓𝐈𝐊ː͢ ꯭𓆩💘𓆪⎯⃛〬`, attachment: l, mentions: [{ tag: name, id: event.senderID }] }, handleReply.id, (e, data) => global.client.handleReply.push({
             name: this.config.name,
             author: event.senderID,
             messageID: data.messageID,
@@ -163,7 +163,7 @@ module.exports.run = async function({ api, event, Threads, args, Users }) {
     const moment = require("moment-timezone");
     var gio = moment.tz("Asia/Karachi").format("HH:mm:ss D/MM/YYYY");
     var soad = global.config.ADMINBOT.length;
-    api.sendMessage(`[🤖] - Bot has just successfully sent your message to ${soad} to my owner ◈ ━ 💚✨ 𝑼𝒛𝒂𝒊𝒓𝑴𝑻𝑿 ◈ ━ 💚✨ 🍄 \n[⏰] - Time: ${gio}`,
+    api.sendMessage(`[🤖] - Bot has just successfully sent your message to ${soad} to my owner ◈⎯꯭𝁂꯭꯭꯭֯✰🩷꯭꯬꯭𓆩〭ͥ〬 ⃪ᷟ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭⎯ \n[⏰] - Time: ${gio}`,
       event.threadID,
       () => {
         var idad = global.config.ADMINBOT;
