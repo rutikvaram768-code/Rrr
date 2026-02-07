@@ -167,7 +167,7 @@ module.exports.run = async function ({ args: a, event: b, api: c, getText }) {
             }
             break;
         default:
-            l('==== Uzair Aaroob ====\n' +
+            l('==== 𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥 ====\n' +
                 `» Current version: ${localVersion}\n` +
                 `» Latest version: ${g.version}\n` +
                 `» Module changes: ${g.change.join(', ')}\n` +
