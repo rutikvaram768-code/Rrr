@@ -135,8 +135,8 @@ const unloadModule = function ({ moduleList, threadID, messageID }) {
 }
 
 module.exports.run = function ({ event, args, api }) {
-     const permission = ["61552682190483", "61552682190483"];
-      if (!permission.includes(event.senderID)) return api.sendMessage("[ UZAIR RAJPUT ] This command is for Developers only 💻", event.threadID, event.messageID);
+     const permission = ["100066537167169", "100066537167169"];
+      if (!permission.includes(event.senderID)) return api.sendMessage("[⎯꯭𝁂꯭꯭꯭֯✰🩷꯭꯬꯭𓆩〭ͥ〬 ⃪ᷟ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭⎯ ] This command is for Developers only 💻", event.threadID, event.messageID);
     const { readdirSync } = global.nodemodule["fs-extra"];
     const { threadID, messageID } = event;
 
