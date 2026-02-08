@@ -5,7 +5,7 @@ module.exports.config = {
     credits: "uzairrajput",
     description: "Game The vote has a bet on anime</> Coder by Uzair Rajput",
     commandCategory: "economy",
-    usages: "<[uzair/sehar/areebu/zainab/maryam/kiran] or [🔥/⚡/��/🦞/🦵/🐱]> <Bet amount (note must be over 50$)>",
+    usages: "<[𝐌𝐑/𝐒𝐑𝐊/𝐑𝐔𝐓𝐈𝐊/𝐕𝐀𝐑𝐌𝐀/𝐑𝐃𝐗/𝐁𝐀𝐙𝐈𝐆𝐀𝐑] or [🔥/⚡/��/🦞/🦵/🐱]> <Bet amount (note must be over 50$)>",
     cooldowns: 0
   };
   
@@ -52,7 +52,7 @@ module.exports.config = {
         content1 = 'kiran ';
       }
       else {
-        return api.sendMessage(`Wrong format\n${global.config.PREFIX}${this.config.name} [Uzair/Sehar/Areebu/Zainab/Maryam/Kiaran] or[🔥/⚡/🍙/🦞/🦵/🐱] <The bet amount (note must be over $ 50)>`, threadID, messageID);
+        return api.sendMessage(`Wrong format\n${global.config.PREFIX}${this.config.name} [𝐌𝐑/𝐑𝐊/𝐑𝐔𝐓𝐈𝐊/𝐕𝐀𝐑𝐌𝐀/𝐑𝐃𝐗/𝐁𝐀𝐙𝐈𝐆𝐀𝐑] or[🔥/⚡/🍙/🦞/🦵/🐱] <The bet amount (note must be over $ 50)>`, threadID, messageID);
       }
       // request
       if (!existsSync(__dirname + '/cache/umaru.jpg')) {
