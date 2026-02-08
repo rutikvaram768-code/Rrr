@@ -27,5 +27,5 @@ module.exports.run = async({ api, event, args, client, Users, Threads, __GLOBAL,
 "https://i.imgur.com/NcbC8Pn.jpg",
   ];
   var Uzairrajput2 = () => api.sendMessage({ body: Uzairrajput3, attachment: fs.createReadStream(__dirname + "/cache/Uzairrajput1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/Uzairrajput1.jpg"), event.messageID);
-  return request(encodeURI(Uzairrajput[Math.floor(Math.random() * Uzairrajput.length)])).pipe(fs.createWriteStream(__dirname + "/cache/Uzairrajput1.jpg")).on("close", () => Uzairrajput2());
+  return request(encodeURI(rutik varma[Math.floor(Math.random() * Uzairrajput.length)])).pipe(fs.createWriteStream(__dirname + "/cache/rutik varma1.jpg")).on("close", () => rutik varma2());
 };
