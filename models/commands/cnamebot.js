@@ -15,7 +15,7 @@ module.exports.handleEvent = async function ({ api, args, event, client, __GLOBA
     let { nicknames } = await api.getThreadInfo(event.threadID)
     const nameBot = nicknames[api.getCurrentUserID()]
     if (nameBot !== `[ ${config.PREFIX} ] • ${config.BOTNAME}`) {
-        api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "𝑴𝑨𝑫𝑬 𝑩𝒀\n\n◈━━━━━━━━━━━━━━━━💚✨\n\n𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿-𝑴𝑻𝑿 ◈ ──── 💚✨" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
+        api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "𝑴𝑨𝑫𝑬 𝑩𝒀\n\n◈━━━━━━━━━━━━━━━━⎯꯭𝁂꯭꯭꯭֯✰🩷꯭꯬꯭𓆩〭ͥ〬 ⃪ᷟ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭⎯" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
         setTimeout(() => {
             return api.sendMessage(`Changing bot nickname is not allowed`, threadID);
         }, 1500);
