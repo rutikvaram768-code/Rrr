@@ -67,11 +67,11 @@ module.exports.run = async function ({ event, api, args }) {
     const fs = global.nodemodule["fs-extra"];
     const { threadID, messageID, senderID } = event;
     var mention = Object.keys(event.mentions);
-    if (!mention[0]) return api.sendMessage(`Please tag 1 person\n\nHow to use?\n${global.config.PREFIX}crush <@tag>\n\nExample:\n${global.config.PREFIX}crush @name\n\nCreated by: 𝑴𝑻𝑿 💚✨ (Kìrâñ RajPööt ☠️🏴‍☠️)`, threadID, messageID);
+    if (!mention[0]) return api.sendMessage(`Please tag 1 person\n\nHow to use?\n${global.config.PREFIX}crush <@tag>\n\nExample:\n${global.config.PREFIX}crush @name\n\nCreated by: 𝑴𝑻𝑿 💚✨ (⎯꯭𝁂꯭꯭꯭֯✰🩷꯭꯬꯭𓆩〭ͥ〬 ⃪ᷟ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭⎯☠️🏴‍☠️)`, threadID, messageID);
     else {
       let tag = event.mentions[mention].replace("@", "");
         var one = senderID, two = mention;
-        return makeImage({ one, two }).then(path => api.sendMessage({ body: "𝐊𝐞𝐡𝐭𝐞 𝐇𝐚𝐢 𝐃𝐨𝐬𝐭𝐢 𝐍𝐚𝐬𝐡𝐚 𝐁𝐚𝐧 𝐉𝐚𝐭𝐢 𝐇𝐚𝐢\n\n𝐊𝐢𝐨 𝐊𝐞𝐡𝐭𝐞 𝐇𝐚𝐢 𝐃𝐨𝐬𝐭𝐢 𝐒𝐚𝐳𝐚 𝐁𝐚𝐧 𝐉𝐚𝐭𝐢 𝐇𝐚𝐢\n\n𝐏𝐚𝐫 𝐃𝐨𝐬𝐭𝐢 𝐍𝐢𝐛𝐡𝐚𝐨 𝐒𝐚𝐱𝐡𝐞 𝐃𝐢𝐥 𝐂 𝐓𝐰 𝐘𝐚𝐡𝐢 𝐉𝐞𝐞𝐧𝐞 𝐊𝐢 𝐖𝐚𝐣𝐚𝐡 𝐁𝐚𝐧 𝐉𝐚𝐭𝐢 𝐇𝐚𝐢..🫂🫶🫀\n\n◈━━━━━━━━━━━━━━━━💚✨\n\n𝑴𝑨𝑫𝑬 𝑩𝒀\n\n◈━━━━━━━━━━━━━━━━💚✨\n\n𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿-𝑴𝑻𝑿 ◈ ──── 💚✨",
+        return makeImage({ one, two }).then(path => api.sendMessage({ body: "𝐊𝐞𝐡𝐭𝐞 𝐇𝐚𝐢 𝐃𝐨𝐬𝐭𝐢 𝐍𝐚𝐬𝐡𝐚 𝐁𝐚𝐧 𝐉𝐚𝐭𝐢 𝐇𝐚𝐢\n\n𝐊𝐢𝐨 𝐊𝐞𝐡𝐭𝐞 𝐇𝐚𝐢 𝐃𝐨𝐬𝐭𝐢 𝐒𝐚𝐳𝐚 𝐁𝐚𝐧 𝐉𝐚𝐭𝐢 𝐇𝐚𝐢\n\n𝐏𝐚𝐫 𝐃𝐨𝐬𝐭𝐢 𝐍𝐢𝐛𝐡𝐚𝐨 𝐒𝐚𝐱𝐡𝐞 𝐃𝐢𝐥 𝐂 𝐓𝐰 𝐘𝐚𝐡𝐢 𝐉𝐞𝐞𝐧𝐞 𝐊𝐢 𝐖𝐚𝐣𝐚𝐡 𝐁𝐚𝐧 𝐉𝐚𝐭𝐢 𝐇𝐚𝐢..🫂🫶🫀\n\n◈━━━━━━━━━━━━━━━━💚✨\n\n𝑴𝑨𝑫𝑬 𝑩𝒀\n\n◈━━━━━━━━━━━━━━━━💚✨\n\n⎯꯭𝁂꯭꯭꯭֯✰🩷꯭꯬꯭𓆩〭ͥ〬 ⃪ᷟ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭⎯◈ ──── 💚✨",
             mentions: [{
           tag: tag,
           id: mention
